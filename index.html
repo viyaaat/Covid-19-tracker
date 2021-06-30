@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>covid-19 traker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="icon" href="./corona_virus.png">
+
+</head>
+
+<body>
+    <div class="title">Covid-19 World</div>
+    <div class="outer">
+        <div class="box" style="background-color: rgb(190, 5, 175);">
+            <div>Infected</div>
+            <div id="b1">00</div>
+        </div>
+        <div class="box" style="background-color: rgb(71, 207, 7);">
+            <div>Recoverd</div>
+            <div id="b2">00</div>
+        </div>
+        <div class=" box" style="background-color: rgb(235, 2, 2);">
+            <div>Deaths</div>
+            <div id="b3">00</div>
+        </div>
+    </div>
+    <div class="search">
+        search:
+        <input id="ip1" type="text" placeholder="Enter Country Name" onkeyup="search()">
+        <div class="nav">
+            <li class="fire">Country</li>
+            <li class="tire">Infected</li>
+            <li class="tire">Recovered</li>
+            <li class="tire">Deaths</li>
+        </div>
+    </div>
+
+    <div class="bx" id="bx"></div>
+</body>
+<script src="./system.js"></script>
+
+</html>

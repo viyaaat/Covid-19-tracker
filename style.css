@@ -12,9 +12,9 @@ body {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
-  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(11, 6, 157);
+  border-radius: 24px;
 }
 .outer {
   text-align: center;
@@ -120,7 +120,7 @@ input {
 }
 .fire {
   list-style: none;
-  margin-right: auto;
+  margin-right: 21%;
   margin-left: auto;
 }
 
@@ -142,6 +142,7 @@ input {
   text-align: center;
   font-size: 30px;
   padding: 10px;
+  margin-left:-3px;
 }
 ::-webkit-scrollbar {
   width: 10px;
